@@ -1,0 +1,18 @@
+Algorithme EnfantMoinsDe10Ans
+
+Variable anneeNaissance, age : entier
+
+Début
+
+    Ecrire("Entrez l'année de naissance : ")
+    Lire(anneeNaissance)
+
+    age ← 2026 - anneeNaissance
+
+    Si age < 10 Alors
+        Ecrire("Vous êtes un enfant de moins de 10 ans")
+    Sinon
+        Ecrire("Vous avez 10 ans ou plus")
+    FinSi
+
+Fin
