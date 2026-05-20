@@ -1,0 +1,26 @@
+Algorithme valeurs Absolue;
+
+Variable : nombre1, nombre2, difference : entier;
+
+Debut : 
+ 
+Affichier " Entrez le premier nombre";
+
+Saisi nombre1;
+
+Affichier "Entrez le deuxième nombre";
+
+
+Saisi nombre2;
+
+difference ← nombre1 - nombre2
+
+Si difference < 0 Alors
+
+        difference ← -difference
+
+    FinSi
+
+ Affichier "La valeur absolue de la différence est : ", difference
+
+Fin
