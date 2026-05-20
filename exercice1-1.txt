@@ -1,0 +1,32 @@
+Algoritme conparaison;
+
+Var : 
+
+A B :reels;
+
+Debut : 
+
+Afficher "veullez nous entrer un reel";
+
+Saisie A
+
+Afficher "veullez nous entrer un reel";
+
+Saisie B
+
+Si A>B alors; 
+Fin si
+Affichier A, "est le plus grand";
+
+Si B>A alors; 
+
+Affichier B "est le plus grand";
+Fin si 
+
+Si A=B alos; 
+
+Affichier "il y a pas de plus grand";
+
+Fin si 
+
+FIN
